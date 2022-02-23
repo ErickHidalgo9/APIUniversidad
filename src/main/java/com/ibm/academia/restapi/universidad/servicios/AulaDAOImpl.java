@@ -40,29 +40,6 @@ public class AulaDAOImpl extends GenericoDAOImpl<Aula, AulaRepository> implement
 	}
 
 	
-	/*
-	 * 
-	 * 
-	 * @Override
-	@Transactional
-	public Persona actualizar(Long alumnoId, Persona alumno) {
-		
-		Optional<Persona> oAlumno = repository.findById(alumnoId);
-		
-		if(!oAlumno.isPresent())
-			throw new NotFoundException(String.format("El alumno con ID %d no existe", alumnoId));
-		
-		Persona alumnoActualizado = null;
-		oAlumno.get().setNombre(alumno.getNombre());
-		oAlumno.get().setApellido(alumno.getApellido());
-		oAlumno.get().setDireccion(alumno.getDireccion());
-		alumnoActualizado = repository.save(oAlumno.get());
-		
-		return alumnoActualizado;
-	}
-	 * 
-	 * */
-	
 	
 	@Override
 	@Transactional
