@@ -29,7 +29,6 @@ import com.ibm.academia.restapi.universidad.servicios.PersonaDAO;
 @RequestMapping("/restapi")
 public class AlumnoController {
 	
-	//private final static Logger logger = LoggerFactory.getLogger(AlumnoController.class);
 	
 	@Autowired
 	@Qualifier("alumnoDAOImpl")
