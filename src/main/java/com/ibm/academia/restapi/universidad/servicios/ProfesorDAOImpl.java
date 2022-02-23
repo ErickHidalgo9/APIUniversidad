@@ -82,24 +82,6 @@ public class ProfesorDAOImpl extends PersonaDAOImpl implements ProfesorDAO {
 	}
 	
 	
-
-	
-	/*
-	 * 
-	 * @Autowired //Es para inyectar
-	//Qualifier Como  persona no es repositorio se le debe poner un bean es decir un nombre y sera el de repositorio Alumno
-	public AlumnoDAOImpl(@Qualifier("repositorioAlumno") PersonaRepository repository) {
-		super(repository);
-	}
-
-	@Override
-	@Transactional ( readOnly = true)
-	public Iterable<Persona> buscarAlumnosPorNombreCarrera(String nombreCarrera) {
-
-		return ((AlumnoRepository)repository).buscarAlumnosPorNombreCarrera(nombreCarrera);
-	}
-	 * */
-	
 	
 	
 }
