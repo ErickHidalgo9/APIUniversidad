@@ -128,7 +128,6 @@ public abstract class Persona implements Serializable{
 	}
 
 	
-	//El hascode y el equals solo se hacen con datos unicos de la clase
 
 	@Override
 	public int hashCode() {
