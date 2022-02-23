@@ -34,7 +34,7 @@ import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
 
-//Crear nuestro primer endpoint
+
 @RestController
 @RequestMapping("/restapi")
 public class CarreraController {
