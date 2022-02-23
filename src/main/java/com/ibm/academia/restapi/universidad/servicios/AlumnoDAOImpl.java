@@ -21,7 +21,6 @@ public class AlumnoDAOImpl extends PersonaDAOImpl implements AlumnoDAO {
 	private CarreraDAO carreraDao;
 
 	@Autowired //Es para inyectar
-	//Qualifier Como  persona no es repositorio se le debe poner un bean es decir un nombre y sera el de repositorio Alumno
 	public AlumnoDAOImpl(@Qualifier("repositorioAlumno") PersonaRepository repository) {
 		super(repository);
 	}
