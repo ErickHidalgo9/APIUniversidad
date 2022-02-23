@@ -4,12 +4,10 @@ import java.util.Optional;
 
 import com.ibm.academia.restapi.universidad.modelo.entidades.Carrera;
 
-//Se le pasa en lugar de E es Carrera. 
+
 public interface CarreraDAO extends GenericoDAO<Carrera> {
 
-	// Son metodos abstractos
-
-	//Estos metodos son copiados de Carrera repository
+	
 	public Iterable<Carrera> findCarrerasByNombreContains(String nombre);
 
 
