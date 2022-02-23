@@ -11,8 +11,6 @@ import com.ibm.academia.restapi.universidad.modelo.entidades.Persona;
 public interface EmpleadoRepository extends PersonaRepository {
 
 	
-	
-	//@Query("select a from Alumno a join fetch a.carrera c where c.nombre = ?1")
 	@Query("select e from Empleado e  where e.tipoEmpleado = ?1")
 	public Iterable<Persona> findEmpleadoByTipoEmpleado(TipoEmpleado tipoEmpleado);
 }
