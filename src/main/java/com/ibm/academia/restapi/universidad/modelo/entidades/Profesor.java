@@ -29,7 +29,6 @@ import lombok.Setter;
 public class Profesor extends Persona{
 
 	@Column(name = "sueldo")
-	//BigDecimal es buena practica para dinero
 	private BigDecimal sueldo;
 	
 	@ManyToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
