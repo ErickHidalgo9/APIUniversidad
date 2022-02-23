@@ -1,0 +1,8 @@
+2022-02-20 20:33:09,917 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ApiUniversidadApplication using Java 17.0.1 on LAPTOP-RSJLOPS2 with PID 15700 (C:\Users\NEMES\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\APIUniversidad\target\classes started by NEMES in C:\Users\NEMES\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\APIUniversidad)
+2022-02-20 20:33:09,918 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 20:33:09,919 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-20 20:33:14,839 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ApiUniversidadApplication in 5.506 seconds (JVM running for 7.157)
+2022-02-20 20:36:19,178 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ApiUniversidadApplication using Java 17.0.1 on LAPTOP-RSJLOPS2 with PID 7488 (C:\Users\NEMES\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\APIUniversidad\target\classes started by NEMES in C:\Users\NEMES\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\APIUniversidad)
+2022-02-20 20:36:19,179 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 20:36:19,180 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-20 20:36:24,192 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ApiUniversidadApplication in 5.584 seconds (JVM running for 7.152)
